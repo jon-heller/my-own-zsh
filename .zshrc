@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="proze"
+ZSH_THEME="steeef"
 
 # Example aliases
 alias la='ls -lAFh'
@@ -48,9 +48,11 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/Users/jon/bin:/usr/local/git/bin:/Users/jon/.rvm/bin
 export HISTSIZE=100000 SAVEHIST=100000 HISTFILE=~/.zhistory
 
-#rvm use 1.9.3
-
 . `brew --prefix`/etc/profile.d/z.sh
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+#########
+# UNCOMMENT FOR RUBY
+#########
+
+# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
