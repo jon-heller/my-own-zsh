@@ -48,8 +48,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/Users/jon/bin:/usr/local/git/bin:/Users/jon/.rvm/bin
 export HISTSIZE=100000 SAVEHIST=100000 HISTFILE=~/.zhistory
 
-. `brew --prefix`/etc/profile.d/z.sh
-
 #########
 # UNCOMMENT FOR RUBY
 #########
